@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- MaterializeCSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <script src="js/lib/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+    <!-- Foundation -->
+      <link rel="stylesheet" href="css/foundation.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <script src="js/lib/foundation.min.js"></script>
+
+    <!-- AngularJS -->
+    <script src="js/lib/angular-1.5.7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-route.min.js"></script>
+
+    <!-- MyStyle -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- App -->
+    <script src="js/controllers/moviesController.js"></script>
+    <script src="js/services/movies.js"></script>
+    <script src="js/directives/moviesCard.js"></script>
+    <script src="js/app.js"></script>
+</head>
+
+<body ng-app="moviesApp">
+  <div class="countainer">
+    <div class="row">
+      <h1>MoviesApp</h1>
+      <section ng-view="">
+
+      </section>
+    </div> <!-- End Row -->
+  </div>  <!-- End Countainer -->
+
+
+
+
+
+
+    <!-- <div class="container">
+        <div ng-controller="weatherController" >
+          <span> &#60;weather-card weather="weather"&#62;&#60;&#47;weather-card&#62; </span>
+          <weather-card weather="weather"></weather-card>
+          <span> &#60;div weather="weather" weather-card&#62;&#60;&#47;div&#62; </span>
+          <div weather="weather" weather-card></div>
+        </div>
+    </div> -->
+</body>
+</html>

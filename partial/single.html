@@ -1,0 +1,18 @@
+<section class="single-movie row">
+  <h2 class="small-9 columns">{{movies[movieSingle].Title}}</h2>
+  <a class="small-2 columns" href="index.html#/"> <img src="http://3.bp.blogspot.com/-0-zj6B9Q2vY/UrsRo8-xBbI/AAAAAAAAAu0/4ted5wbZ32w/s1600/home+(2).png" alt=""  /></a>
+  <img class="large-5 medium-4 columns " ng-src="{{movies[movieSingle].Poster}}" alt="{{movies[movieSingle].Title}}" />
+  <div class="content large-7 medium-8 columns">
+    <span>Year of made - {{movies[movieSingle].Year}}</span>
+    <p>{{movies[movieSingle].Rated}}</p>
+    <p>{{movies[movieSingle].Genre}}</p>
+    <p>Duration: {{movies[movieSingle].Runtime}}</p>
+    <p>Director: {{movies[movieSingle].Director}}</p>
+    <p>Writer: {{movies[movieSingle].Writer}}</p>
+    <p>Actors: {{movies[movieSingle].Actors}}</p>
+    <p>Languages: {{movies[movieSingle].Language}}</p>
+    <p>Awards: {{movies[movieSingle].Awards}}</p>
+    <p>Description: {{movies[movieSingle].Plot}}</p>
+    <p><a href="index.html#/">Back to home</a></p>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+<div class="movies">
+  <ul class="large-block-grid-4 medium-block-grid-3 small-block-grid-2">
+    <li ng-repeat="movie in movies">
+      <figure>
+        <img ng-src="{{movie.Poster}}" alt="{{movie.Title}}" />
+        <figcaption>
+          <h3>{{movie.Title}}</h3>
+          <span>{{movie.Genre}}</span>
+          <a href="#/single/{{movies.indexOf(movie)}}" class="btn-mov button expand small">Read More</a>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+
+</div> <!-- End movies-->
